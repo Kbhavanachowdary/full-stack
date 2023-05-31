@@ -1,0 +1,92 @@
+* {
+    font-family: poppins;
+    
+}
+
+header {
+    background-color: #CE0505;
+    height: 70px;
+    position: relative;
+    margin-bottom: 20px;
+}
+ 
+.logo-span {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px 15px;
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    
+}
+.logo {
+    color: #CE0505;
+    font-size: 33px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.login-signup {
+    position: absolute;
+    right: 80px;
+    bottom: 27px;
+    word-spacing: 10px;
+}
+.login {
+    color: white;
+    text-decoration: none;
+}
+.createacc {
+    color: white;
+    text-decoration:none;
+    word-spacing: normal;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.section {
+    position: relative;
+    padding: 100px 113px;
+}
+.title-text {
+    color: #192F60;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+
+}   
+
+.filter-article {
+    width: 260px;
+    height: 682px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-left: 50px;
+    
+}
+
+.result1-article {
+    width: 794px;
+    height: 291px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    position: absolute;
+    top: 170px;
+    left: 350px;
+    
+}
+.result2-article {
+    width: 794px;
+    height: 291px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    position: absolute;
+    top: 470px;
+    left: 350px;
+}
+.pagination {
+    position: absolute;
+    margin-left: 50%;
+
+}
