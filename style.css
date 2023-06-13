@@ -63,6 +63,7 @@ header {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     margin-left: 50px;
+
     
 }
 
@@ -74,6 +75,7 @@ header {
     position: absolute;
     top: 170px;
     left: 350px;
+    font-size: 30;
     
 }
 .result2-article {
@@ -85,12 +87,27 @@ header {
     top: 470px;
     left: 350px;
 }
-.pagination {
-    position: absolute;
-    margin-left: 50%;
+.flex-container {
+    /* position: relative; */
+    margin-left: 80%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    height: 500px;
-
+    /* height: 100px; */
+    align-items: flex-start;
 }
+.flex-container > div {
+    top: 800px;
+    left: 699px;
+    width: 36px;
+    height: 30px;
+    /* background: #8C96AB 0% 0% no-repeat padding-box; */
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    text-align: center;
+    font: normal normal medium 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 2;
+} 
+
