@@ -35,7 +35,7 @@
             left: 1150px;
             
         }
-        .createacc {
+        .create {
             border: 1px solid white;
             border-radius: 3px;
             padding: 10px 15px 10px;
@@ -48,15 +48,40 @@
             top: 15px;
         }
         .layout {
+            /* background-color: #fbfbfb; */
             background: #FBFBFB 0% 0% no-repeat padding-box;
-            height: 100px;
-            width: 100%;
+            width: 1550px;
+            height: 900px;
+            /* height: 100px;
+            width: 100%; */
         }
         .headline{
             position: relative;
             left: 113px;
             top: 20px;
-        }   
+            color: #192F60;
+            padding: 10px 0px 60px;
+        } 
+        .filter{
+            width: 260px;
+            height: 670px;
+            position: relative;
+            background-color:#FFFFFF;
+            left: 113px;
+        }  
+        .filter-headline {
+            position: relative;
+            padding: 17px 0px 0px 26px;
+        }
+        .select-location {
+            position: relative;
+            padding: 10px 0px 0px 27px;
+        }
+        input{
+            position: relative;
+            left: 27px;
+            top: 10px;
+        }
      
     </style>
 
@@ -64,12 +89,22 @@
 <body>
     <div class = "header">
         <span class = "logo-span">e!</span>
-        <a href = "#" class="Login">Login</a>
-        <a href = "#" class="createacc">Create an account</a>   
+        <a href = "Login.html" class="Login">Login</a>
+        <a href = "Create.html" class="create">Create an account</a>   
     </div>
     <div class=" layout">
         <h1 class="headline">Breakfast Places in Mumbai</h1>
-
+        <div class="filter">
+            <h4 class="filter-headline">Filters</h4>
+            <p class="select-location">Select Location</p>
+            <input list ="place" name ="place"  placeholder="select location">
+            <datalist id="place">
+                <option>Mumbai</option>
+                <option>Delhi</option>
+                <option>Agra</option>
+                <option>Goa</option>
+            </datalist>
+        </div>
     </div>
     
 </body>
