@@ -19,7 +19,31 @@
     <main>
         <section>
         <div class="title-text">Breakfast Places in Mumbai</div>
-        <article class ="Filter-article">Filter article </article>
+        <article class ="Filter-article">Filters
+        <p class="select-location">Select Location</p>
+            <input list ="place" name ="place"  placeholder="Select Location"/>
+            <datalist id="place" >
+                <option>Mumbai</option>
+                <option>Delhi</option>
+                <option >Agra</option>
+                <option>Goa</option>
+            </datalist>
+            <div class="cuisine">Cuisine
+                <br><br>
+                <input type="checkbox" name="North India"></input>
+                <label for="north india">North India</label><br>
+                <input type="checkbox" name="south India"></input>
+                <label for="cuisine">South India</label><br>
+                <input type="checkbox" name="street food"></input>
+                <label for="cuisine">chinese</label><br> 
+                <input type="checkbox" name="fast food"></input> 
+                <label for="cuisine">fast food</label>           
+                <input type="checkbox" name="street food"></input>
+                <label for="cuisine">street food</label>
+               
+            </div>
+             </article>
+        
         <article class ="result1-article">The Big Chill Cakery</article>
         <article class ="result2-article">The Bake Shop</article>
     </section>

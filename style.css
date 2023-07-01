@@ -1,5 +1,7 @@
 * {
     font-family: poppins;
+    margin: 0%;
+    padding: 0%;
     
 }
 
@@ -53,20 +55,45 @@ header {
     font-weight: bold;
     font-size: 36px;
     margin-bottom: 30px;
-    margin-left: 50px;
+    margin-left: 100px;
 
 }   
 
 .filter-article {
-    width: 260px;
+    width: 200px;
     height: 682px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
-    margin-left: 50px;
-
+    margin-left: 100px;
+    padding: 20px 20px 0px ;
+    font-size: 18px;
+    color: #192F60;
+    opacity: 1;    
+}
+.select-location {
+    color: #192f60;
+    padding: 10px 1px 10px ;
+    font-size: 14px;   
+}
+input {
+    border: 1px solid #8C96AB;
+    border-radius: 4px;
+    height: 25px;
+    width: 208px;
+    text-indent: 5px;
     
 }
-
+.cuisine{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #192F60;
+    font-size: 15px;
+    padding: 10px 1px 10px;   
+}
+label {
+    text-align: left;
+    color: #8C96AB;
+}    
 .result1-article {
     width: 794px;
     height: 291px;
@@ -74,7 +101,7 @@ header {
     box-shadow: 0px 3px 6px #00000029;
     position: absolute;
     top: 170px;
-    left: 350px;
+    left: 400px;
     font-size: 30;
     
 }
@@ -85,7 +112,7 @@ header {
     box-shadow: 0px 3px 6px #00000029;
     position: absolute;
     top: 470px;
-    left: 350px;
+    left: 400px;
 }
 .flex-container {
     /* position: relative; */
@@ -95,6 +122,7 @@ header {
     justify-content: space-around;
     /* height: 100px; */
     align-items: flex-start;
+   
 }
 .flex-container > div {
     top: 800px;
@@ -109,5 +137,7 @@ header {
     letter-spacing: 0px;
     color: #8C96AB;
     opacity: 2;
+    
 } 
+
 
