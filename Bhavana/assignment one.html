@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
         }
-        body {
+        .body {
             margin: 0;
             padding: 0;
         }    
@@ -17,6 +17,7 @@
              background-color: #CE0505;
              height: 80px;
              width: 100%;
+             
         }   
         .logo-span {
             background-color: #FFFFFF; 
@@ -42,7 +43,7 @@
             margin-left: 1150px;
             position: relative;
            }
-        a{
+        .a{
             text-decoration: none;
             color: #FFFFFF;
             top: 15px;
@@ -55,32 +56,58 @@
             /* height: 100px;
             width: 100%; */
         }
-        .headline{
+        /* .headline{
             position: relative;
             left: 113px;
             top: 20px;
             color: #192F60;
-            padding: 10px 0px 60px;
-        } 
+            padding: 10px 0px 60px;} */
+        
         .filter{
             width: 260px;
             height: 670px;
             position: relative;
             background-color:#FFFFFF;
             left: 113px;
+            top: 180px;
         }  
         .filter-headline {
-            position: relative;
-            padding: 17px 0px 0px 26px;
+            color: #192f10;
+            /* padding: 17px 0px 0px 26px; */
+            padding: 20px 20px 0px ;
         }
         .select-location {
-            position: relative;
-            padding: 10px 0px 0px 27px;
+            color: #192f10;
+            padding: 20px 20px 0px ;
         }
         input{
             position: relative;
-            left: 27px;
+            left: 20px;
             top: 10px;
+        }
+        .headline{
+            color: #192f10;
+            margin: 0;
+            position: absolute;
+            left: 100px;
+            top: 50px;
+            padding: 60px 15px 15px;
+        }
+        .cuisine-headline {
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+        label{
+            display: list-item;
+            list-style: none;
+            position:absolute;
+            left: 40px;
+            top: 20px;    
+        }
+        .cost{
+            position: relative;
+            left: 30px;
         }
      
     </style>
@@ -97,13 +124,51 @@
         <div class="filter">
             <h4 class="filter-headline">Filters</h4>
             <p class="select-location">Select Location</p>
-            <input list ="place" name ="place"  placeholder="select location">
-            <datalist id="place">
+            <input list ="place" name ="place"  placeholder="select location"/>
+            <datalist id="place" >
                 <option>Mumbai</option>
                 <option>Delhi</option>
-                <option>Agra</option>
+                <option >Agra</option>
                 <option>Goa</option>
             </datalist>
+            <div class="cuisine">
+                <p class="cuisine-headline">cuisine</p>
+                
+                <label for="cuisine">North Indian</label>
+                <input type="checkbox" name="North Indian">
+                
+                <label for="cuisine">South Indian</label>
+               
+                
+                <input type="checkbox" name="south Indian">
+                <label for="cuisine">chinese</label>
+                
+                
+                <input type="checkbox" name="street food">
+                <label for="cuisine">street food</label>
+               
+
+                <input type="checkbox" name="street food">
+
+            </div>
+            <div class="cost-for-two">
+                <p class="cost">cost for two</p>
+                <label for="cuisine">North Indian</label>
+                <input type="radio" name="North Indian">
+                
+                <label for="cuisine">South Indian</label>
+                <input type="radio" name="North Indian">
+                
+                <!-- <input type="checkbox" name="south Indian"> -->
+                <label for="cuisine">chinese</label>
+                <input type="radio" name="North Indian">
+                
+                <!-- <input type="checkbox" name="chinese"> -->
+                <label for="cuisine">street food</label>
+                <input type="radio" name="North Indian">
+                <!-- <input type="checkbox" name="street food"> -->
+            </div>
+            
         </div>
     </div>
     
