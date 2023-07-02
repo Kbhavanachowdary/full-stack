@@ -93,7 +93,10 @@ input {
 label {
     text-align: left;
     color: #8C96AB;
-}    
+}   
+.checkbox {
+    
+}
 .result1-article {
     width: 794px;
     height: 291px;
