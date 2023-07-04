@@ -62,7 +62,7 @@ header {
 .filter-article {
     width: 200px;
     height: 682px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     box-shadow: 0px 3px 6px #00000029;
     margin-left: 100px;
     padding: 20px 20px 0px ;
@@ -94,9 +94,7 @@ label {
     text-align: left;
     color: #8C96AB;
 }   
-.checkbox {
-    
-}
+
 .result1-article {
     width: 794px;
     height: 291px;
